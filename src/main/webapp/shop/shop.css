@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	text-align:center;
+	
+}
+
+/*top*/
+
+.top{
+	position:relative;
+	
+}
+.menu{
+	position:absolute;
+	display: inline-block;
+	
+}
+
+/*nav*/
+
+nav{
+	border-color: #9D9D9D;
+    border-width: 1px 0;
+    border-style: solid;
+	color: red;
+	font-family: Arial black;
+	font-size: x-large;
+	
+	
+}
+nav > ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-basis: auto;
+    justify-content:space-around;
+	
+}
+nav a{
+    font-size: 1.2rem;
+	color: inherit;
+	display: block;
+		
+
+}
+nav li:hover{
+	color: black;
+
+}
+
+.shop-item h1{
+	text-align: left;
+	font-family: Arial black;
+	padding: 0 0 5% 0;
+}
+.shop-item img{
+	max-height: 70%;  
+    max-width: 70%; 
+    margin: 2%;
+	
+}
+.shop-item p{
+	font-family: Microsoft JhengHei black;
+	font-size: 18px;
+	color:black;
+	text-align: left;
+	padding: 0 0 0 15%;	
+	
+}
+.shop-item img:hover{
+	opacity: 0.5;
+	
+}
